@@ -1,0 +1,184 @@
+body a {
+  color: black;
+  text-decoration: none; }
+  body a:hover {
+    text-decoration: none; }
+
+.page-background {
+  background: -webkit-gradient(linear, left top, right bottom, from(#F36315), color-stop(#3F5EFB), to(#F36315));
+  background: -webkit-linear-gradient(top left, #F36315, #3F5EFB, #F36315);
+  background: -o-linear-gradient(top left, #F36315, #3F5EFB, #F36315);
+  background: linear-gradient(to bottom right, #F36315, #3F5EFB, #F36315); }
+
+header .contacts {
+  font-family: Montserrat; }
+  header .contacts a {
+    text-decoration: none; }
+header .logo-image {
+  height: 120px; }
+header .nav-link {
+  -webkit-text-stroke: 0.03rem white !important;
+  font-size: 25px;
+  font-weight: bold; }
+
+.breadcrumb {
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  background-color: lightgray !important;
+  font-size: 0.9rem; }
+  .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    content: ">"; }
+
+.page-body {
+  background: -webkit-gradient(linear, left top, right bottom, from(white), to(darkgray));
+  background: -webkit-linear-gradient(top left, white, darkgray);
+  background: -o-linear-gradient(top left, white, darkgray);
+  background: linear-gradient(to bottom right, white, darkgray);
+  border-radius: 25px; }
+  .page-body .container-fluid h2 {
+    text-align: center;
+    margin-bottom: 1.4rem; }
+  .page-body .page-content {
+    position: relative;
+    border-top: 8px double #F36315; }
+    .page-body .page-content .top-label {
+      background-color: white;
+      -webkit-box-shadow: 0 0 5px 3px white;
+              box-shadow: 0 0 5px 3px white;
+      position: absolute;
+      top: -18px;
+      left: 50%;
+      -webkit-transform: translate(-50%, 0);
+          -ms-transform: translate(-50%, 0);
+              transform: translate(-50%, 0); }
+      .page-body .page-content .top-label i {
+        background-color: #F36315;
+        border-radius: 50%;
+        font-size: 0.8rem; }
+
+footer .logo-image {
+  height: 90px; }
+footer .navbar-nav a, footer {
+  color: lightgray; }
+footer .nav-link:hover {
+  color: white; }
+
+.social-media .fa {
+  padding: 17px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 50px; }
+  .social-media .fa:hover {
+    opacity: 0.7; }
+.social-media .fa-facebook {
+  background: #3B5998;
+  color: white; }
+.social-media .fa-twitter {
+  background: #55ACEE;
+  color: white; }
+
+.left-sidebar {
+  border: none !important;
+  position: relative; }
+  .left-sidebar ul {
+    list-style-type: none; }
+  .left-sidebar .left-sidebar-title {
+    background-color: #8f593f;
+    color: white; }
+    .left-sidebar .left-sidebar-title::before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: -16px;
+      border: 16px solid #8f593f;
+      width: 11px;
+      border-left-color: transparent;
+      border-right-width: 0; }
+    .left-sidebar .left-sidebar-title .fa-envelope, .left-sidebar .left-sidebar-title .fa-home {
+      position: absolute;
+      right: 10px;
+      padding-top: 5px; }
+    .left-sidebar .left-sidebar-title .fa-home {
+      font-size: 20px;
+      top: 2px; }
+
+.ask-question-form .contact-left .contact-userName input, .ask-question-form .contact-left .contact-userEmail input, .ask-question-form .contact-left .contact-userPhone input {
+  position: relative;
+  width: 250px !important;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 0 0 10px;
+  margin: 0 0 20px;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0.5px 0.5px 3px #aaaaad;
+          box-shadow: inset 0.5px 0.5px 3px #aaaaad;
+  font: normal 13px Arial, sans-serif;
+  color: #434343; }
+.ask-question-form .contact-right .contact-userMessage textarea {
+  position: relative;
+  width: 250px !important;
+  height: 130px;
+  padding: 7px 10px;
+  margin: 0 0 18px;
+  background: white;
+  border: none;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0.5px 0.5px 3px #aaaaad;
+          box-shadow: inset 0.5px 0.5px 3px #aaaaad;
+  font: normal 13px Arial, sans-serif;
+  color: #434343; }
+.ask-question-form .submit {
+  right: 2.72rem;
+  bottom: 1rem;
+  color: #434343;
+  background-color: white;
+  border-radius: 4px; }
+.ask-question-form .invalid input, .ask-question-form .invalid textarea {
+  -webkit-box-shadow: inset 0.5px 0.5px 5px red !important;
+          box-shadow: inset 0.5px 0.5px 5px red !important; }
+
+.image-tiles {
+  text-align: center; }
+  .image-tiles > div {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem; }
+  .image-tiles figure {
+    vertical-align: bottom;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
+    .image-tiles figure figcaption {
+      font-weight: bold;
+      margin-bottom: 5px;
+      height: 100%; }
+  .image-tiles img {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 25px; }
+
+.back-to-top-button {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  background-color: lightgray;
+  padding: .4rem 0 .4rem 0;
+  border-radius: 50px;
+  -webkit-transition: background-color .3s, opacity .5s, visibility .5s;
+  -o-transition: background-color .3s, opacity .5s, visibility .5s;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden; }
+  .back-to-top-button.show {
+    opacity: 0.7;
+    visibility: visible; }
+  .back-to-top-button:hover {
+    cursor: pointer;
+    background-color: white; }
+
+.agencies-list a {
+  color: blue; }
