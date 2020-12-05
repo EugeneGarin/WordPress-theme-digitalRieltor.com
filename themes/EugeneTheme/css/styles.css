@@ -79,6 +79,7 @@ footer .nav-link:hover {
   color: white; }
 
 .ask-question-form .contact-left .contact-userName input, .ask-question-form .contact-left .contact-userEmail input, .ask-question-form .contact-left .contact-userPhone input {
+  -webkit-appearance: none;
   position: relative;
   width: 250px !important;
   height: 30px;
@@ -93,6 +94,7 @@ footer .nav-link:hover {
   font: normal 13px Arial, sans-serif;
   color: #434343; }
 .ask-question-form .contact-right .contact-userMessage textarea {
+  -webkit-appearance: none;
   position: relative;
   width: 250px !important;
   height: 130px;
@@ -176,6 +178,11 @@ footer .nav-link:hover {
   border-radius: 2rem; }
 .woocommerce .product .checkout_button_submit {
   background-color: orange; }
+.woocommerce ul.products {
+  padding-top: 1rem;
+  border-top: 1px solid gray; }
+.woocommerce select.orderby {
+  margin-top: 1px; }
 
 .wc-search-form .aws-wrapper {
   -webkit-align-self: flex-end;

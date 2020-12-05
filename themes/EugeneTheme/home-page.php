@@ -27,7 +27,7 @@ get_header(); ?>
 							</div>
 							<div class="row image-tiles align-items-end">
 								<div class="col-lg-4 col-6">
-									<a href='http://digitalrieltor.com/product-category/apartments/'>
+									<a href='<?=site_url()?>/product-category/apartments/'>
 										<figure>
 											<figcaption>Квартири</figcaption>
 											<img src="<?=wp_get_attachment_image_url(49, "full")?>" alt="img">
@@ -35,7 +35,7 @@ get_header(); ?>
 									</a>
 								</div>
 								<div class="col-lg-4 col-6">
-									<a href='http://digitalrieltor.com/product-category/rooms/'>
+									<a href='<?=site_url()?>/product-category/rooms/'>
 										<figure>
 											<figcaption>Кiмнати</figcaption>
 											<img src="<?=wp_get_attachment_image_url(54, "full")?>" alt="img">
@@ -43,7 +43,7 @@ get_header(); ?>
 									</a>
 								</div>
 								<div class="col-lg-4 col-6">
-									<a href='http://digitalrieltor.com/product-category/houses/'>
+									<a href='<?=site_url()?>/product-category/houses/'>
 										<figure>
 											<figcaption>Будинки</figcaption>
 											<img src="<?=wp_get_attachment_image_url(52, "full")?>" alt="img">
@@ -51,7 +51,7 @@ get_header(); ?>
 									</a>
 								</div>
 								<div class="col-lg-4 col-6">
-									<a href='http://digitalrieltor.com/product-category/land-plots/'>
+									<a href='<?=site_url()?>/product-category/land-plots/'>
 										<figure>
 											<figcaption>Земельнi дiлянки</figcaption>
 											<img src="<?=wp_get_attachment_image_url(55, "full")?>" alt="img">
@@ -59,7 +59,7 @@ get_header(); ?>
 									</a>
 								</div>
 								<div class="col-lg-4 col-6">
-									<a href='http://digitalrieltor.com/product-category/commercial-apartments/'>
+									<a href='<?=site_url()?>/product-category/commercial-apartments/'>
 										<figure>
 											<figcaption>Торгiвельнi примiщення</figcaption>
 											<img src="<?=wp_get_attachment_image_url(50, "full")?>" alt="img">
@@ -67,7 +67,7 @@ get_header(); ?>
 									</a>
 								</div>
 								<div class="col-lg-4 col-6">
-									<a href='http://digitalrieltor.com/product-category/office-apartments/'>
+									<a href='<?=site_url()?>/product-category/office-apartments/'>
 										<figure>
 											<figcaption>Торгiвельно-офiснi примiщення</figcaption>
 											<img src="<?=wp_get_attachment_image_url(51, "full")?>" alt="img">

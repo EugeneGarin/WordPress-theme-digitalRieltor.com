@@ -18,6 +18,7 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header( 'shop' );
+
 /**
  * Hook: woocommerce_before_main_content.
  *
@@ -26,6 +27,7 @@ get_header( 'shop' );
  * @hooked WC_Structured_Data::generate_website_data() - 30
  */
 do_action( 'woocommerce_before_main_content' );
+
 ?>
 <div class="container-fluid">
 	<div class="row">
@@ -60,7 +62,6 @@ if ( woocommerce_product_loop() ) {
 
 	woocommerce_product_loop_start();
 	
-	echo "<hr style='margin-top: 0px'>";
 
 	if ( wc_get_loop_prop( 'total' ) ) {
 		while ( have_posts() ) {

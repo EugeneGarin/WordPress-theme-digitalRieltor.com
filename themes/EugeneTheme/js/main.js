@@ -9,8 +9,8 @@ jQuery(function ($) {
             let userMessage = $(".ask-question-form .contact-userMessage textarea").val();
             let templatePath = "<?php get_template_directory()?>";
             $.ajax({
-                url:'http://digitalrieltor.com/wp-content/themes/EugeneTheme/ajax/question_form_submit.php',
-                type:'post',
+                url: document.location.origin + '/wp-content/themes/EugeneTheme/ajax/question_form_submit.php',
+                type: 'post',
                 data:{userName:userName, userEmail:userEmail, userPhone:userPhone, userMessage:userMessage},
                 success:function(response){
                     response = jQuery.parseJSON(response);

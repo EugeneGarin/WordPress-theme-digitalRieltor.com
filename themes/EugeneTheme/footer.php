@@ -18,7 +18,7 @@
             <div class="col-md-3">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="http://digitalrieltor.com/%D0%BF%D1%80%D0%BE-%D0%BD%D0%B0%D1%81/">Про нас</a>
+                        <a class="nav-link" href="<?=get_permalink(97)?>">Про нас</a>
                     </li>
                     <li class="nav-item">
                         <a data-fancybox data-src="#hidden-content-1" href="javascript:;" class="nav-link">Задати питання</a>

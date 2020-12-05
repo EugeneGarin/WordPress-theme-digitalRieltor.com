@@ -1,4 +1,5 @@
 <?php
+
 /*--- REMOVE GENERATOR META TAG ---*/
 remove_action('wp_head', 'wp_generator');
 
@@ -164,16 +165,16 @@ function get_postviews( $args = [] ){
 	$do_count = false;
 	switch( $rg->who_count ){
 		case 0:
-			$do_count = true;
-			break;
+		$do_count = true;
+		break;
 		case 1:
-			if( ! $user_ID )
-				$do_count = true;
-			break;
+		if( ! $user_ID )
+			$do_count = true;
+		break;
 		case 2:
-			if( $user_ID )
-				$do_count = true;
-			break;
+		if( $user_ID )
+			$do_count = true;
+		break;
 	}
 	if( $do_count && $rg->exclude_bots ){
 		$notbot = 'Mozilla|Opera'; // Chrome|Safari|Firefox|Netscape == Mozilla
@@ -194,3 +195,4 @@ function get_postviews( $args = [] ){
 		wp_cache_delete( $post->ID, 'post_meta' );
 	}
 }
+
